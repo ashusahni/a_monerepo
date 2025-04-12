@@ -14,7 +14,7 @@ async function main() {
       name: 'alice',
       Balance: {
         create: {
-            amount: 20000,
+            amount: 20005656630,
             locked: 0
         }
       },
@@ -22,7 +22,7 @@ async function main() {
         create: {
           startTime: new Date(),
           status: "Success",
-          amount: 20000,
+          amount: 20005656630,
           token: "token__1",
           provider: "HDFC Bank",
         },
@@ -38,7 +38,7 @@ async function main() {
       name: 'bob',
       Balance: {
         create: {
-            amount: 2000,
+            amount: 20005656630,
             locked: 0
         }
       },
@@ -46,7 +46,7 @@ async function main() {
         create: {
           startTime: new Date(),
           status: "Failure",
-          amount: 2000,
+          amount: 20005656630,
           token: "token__2",
           provider: "HDFC Bank",
         },
